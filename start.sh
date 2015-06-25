@@ -22,8 +22,8 @@ sleep 30
 service xcp-rrdd-plugins start
 chkconfig xcp-rrdd-plugins on
 service firstboot start
-service perfmon start
-chkconfig perfmon on
+#service perfmon start
+#chkconfig perfmon on
 
 . /etc/xensource-inventory
 xe pif-scan host-uuid=${INSTALLATION_UUID}
