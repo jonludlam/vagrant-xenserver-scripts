@@ -21,7 +21,7 @@ sleep 30
 
 service xcp-rrdd-plugins start
 chkconfig xcp-rrdd-plugins on
-service firstboot start
+service xs-firstboot start
 #service perfmon start
 #chkconfig perfmon on
 
